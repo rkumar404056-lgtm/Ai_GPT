@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="Ai_GPT.css">
+</head>
+<body>
+    <div class="chat-container">
+     <!-- <div class="user-chat-box">
+    <img src="user-ai.png" alt="" id="user-image" width="60px"> 
+    <div class="user-chat-area"></div>
+     </div> -->
+     <div class="ai-chat-box">
+      <img src="ai-logo2.png" alt="" id="ai-image" width="60px">
+      <div class="ai-chat-area"> Hello ! how can I help you ?
+        <!-- <img src="loding.gif" alt="" class="load" width="80px"> -->
+      </div>
+     </div>
+    </div>
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Ask Something.  .  .  .  .  .">
+        <button id="button-image">
+            <img src="gallery-icon.jpg" alt="" width="35" id="image-gallery">
+            <input type="file" hidden accept="images/*">
+        </button> 
+         
+        <button id="submit">
+            <img src="vertical-arrow.avif" alt="" width="30" id="image">
+        </button>
+    </div>
+    <script src="Ai_GPT.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static("C:\\Users\\WIN10\\Desktop\\VS CODE\\html-css"));
+app.use(express.static(__dirname));
 
 const {API_KEY} = require("./AIKi.js");
 
